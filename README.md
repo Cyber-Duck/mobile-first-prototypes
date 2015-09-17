@@ -1,6 +1,10 @@
 # Mobile First Prototypes
 
-Our mobile-first template is based on four breakpoints and uses the default grid from our Hoisin framework. 
+Our mobile-first template is based on four breakpoints and uses the default grid from our Hoisin framework. It is built using Axure RP 7 and is designed to make producing prototypes for responsive websites that are mobile-first quicker and easier.
+
+# Usage
+
+To start using the template, click Download Zip and open the `mobile-first-rwd-template.rp` file in Axure and follow the guide below to use the template.  
 
 # The Grid
 
