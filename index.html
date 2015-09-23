@@ -4,8 +4,8 @@
     <title>Untitled Document</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link type="text/css" href="resources/css/reset.css" rel="Stylesheet" />
-    <link type="text/css" href="resources/css/default.css" rel="Stylesheet" />
+    <link type="text/css" href="demo/resources/css/reset.css" rel="Stylesheet" />
+    <link type="text/css" href="demo/resources/css/default.css" rel="Stylesheet" />
 
     <script type="text/javascript">
         if (location.href.toString().indexOf('file://localhost/') == 0) {
@@ -13,12 +13,12 @@
         }
     </script>
 
-    <script type="text/javascript" src="resources/scripts/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="resources/scripts/player/splitter.js"></script>
-    <script type="text/javascript" src="resources/scripts/axutils.js"></script>
-    <script type="text/javascript" src="resources/scripts/player/axplayer.js"></script>
-    <script type="text/javascript" src="resources/scripts/messagecenter.js"></script>
-    <script type="text/javascript" src="data/document.js"></script>
+    <script type="text/javascript" src="demo/resources/scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="demo/resources/scripts/player/splitter.js"></script>
+    <script type="text/javascript" src="demo/resources/scripts/axutils.js"></script>
+    <script type="text/javascript" src="demo/resources/scripts/player/axplayer.js"></script>
+    <script type="text/javascript" src="demo/resources/scripts/messagecenter.js"></script>
+    <script type="text/javascript" src="demo/data/document.js"></script>
     <style type="text/css">
 
 #outerContainer {
@@ -46,7 +46,7 @@
    width: 100%;
    height: 100%;
    overflow: hidden;
-   background-image: url(resources/images/transparent.gif);
+   background-image: url(demo/resources/images/transparent.gif);
    z-index: 20000;
 }
 
@@ -69,7 +69,7 @@
 
             $(window).bind('load', function() {
                 if(CHROME_5_LOCAL && !$('body').attr('pluginDetected')) {
-                    window.location = 'resources/chrome/chrome.html';
+                    window.location = 'demo/resources/chrome/chrome.html';
                 }
             });
 
@@ -79,7 +79,7 @@
 
                 if($axure.player.settings.loadFeedbackPlugin) {
                     if($axure.player.settings.isAxshare) {
-                        $axure.utils.loadJS('/Scripts/plugins/feedback/feedback.js');
+                        $axure.utils.loadJS('demo//Scripts/plugins/feedback/feedback.js');
                     } else {
                         $axure.utils.loadJS('http://share.axure.com/Scripts/plugins/feedback/feedback.js');
                     }
@@ -310,10 +310,10 @@
 
     --></script>
 
-    <link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
-    <script type="text/javascript" src="plugins/sitemap/sitemap.js"></script>
-    <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css" />
-    <script type="text/javascript" src="plugins/page_notes/page_notes.js"></script>
+    <link type="text/css" rel="Stylesheet" href="demo/plugins/sitemap/styles/sitemap.css" />
+    <script type="text/javascript" src="demo/plugins/sitemap/sitemap.js"></script>
+    <link type="text/css" rel="Stylesheet" href="demo/plugins/page_notes/styles/page_notes.css" />
+    <script type="text/javascript" src="demo/plugins/page_notes/page_notes.js"></script>
 
 </head>
 <body scroll="no">
